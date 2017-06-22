@@ -3,9 +3,15 @@
   <head><title> icebowl.github.io </title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
+	body{
+	margin:0;padding:0;
+	background: #24423C;
+	color: #FCBE14;
+	font-family: Arial, Helvetica, sans-serif;	
+	}
 .wrapper {overflow: auto;}
 
-#main {margin-left: 4px;}
+#main {margin-left: 10px;}
 
 #leftsidebar {
     float: none;
@@ -18,12 +24,22 @@
 }
 
 .menuitem {
-    background: #CDF0F6;
-    border: 1px solid #d4d4d4;
-    border-radius: 4px;
+    background:#24423C;
+    color:#fff;
+    border: 2px solid #d4d4d4;
+    border-radius: 7px;
     list-style-type: none;
+    text-decoration: none;
     margin: 4px;
     padding: 2px;
+}
+
+a:link{
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+    background: yellow;
 }
 
 @media screen and (min-width: 480px) {
@@ -35,21 +51,36 @@
 <body>
 
 <div class="wrapper">
+	<header>
+			icebowl.github.io
+		</header>
   <div id="leftsidebar">
     <ul id="menulist">
-      <a href = "https://github.com/icebowl?tab=repositories"><li class="menuitem">Repositories</li></a>
-      <li class="menuitem">Menu-item 2</li>
-      <li class="menuitem">Menu-item 3</li>
-      <li class="menuitem">Menu-item 4</li>
-      <li class="menuitem">Menu-item 5</li>
+      <a href = "https://github.com/icebowl?tab=repositories"><li class="menuitem link">Repositories</li></a>
+      <li class="menuitem">42=2A=00101010=*</li>
+ 
    </ul>
   </div>
   <div id="main">
     <h1>Resize the browser window to see the effect!</h1>
     <p>This example shows a menu that will float to the left of the page if the viewport is 480 pixels wide or wider. If the viewport is less than 480 pixels, the menu will be on top of the content.</p>
+  <pre>
+  
+  current project:
+  https://www.amazon.com/Devastator-Mobile-Robot-Platform-Metal/dp/B01KHLYJQ2/ref=sr_1_fkmr0_2?ie=UTF8&qid=1498132968&sr=8-2-fkmr0&keywords=devastator+tank+mobil+platform
+  http://johnny-five.io/
+  
+  
+  </pre>
+  
   </div>
 </div>
-
+<footer>
+GREEN
+#24423C - rgb(36, 66, 60)
+CHEESE GOLD HEX CODE: #FFB81C; RGB: (255,184,28)
+#FCBE14 - rgb(252, 190, 20)
+</footer>
 </body>
 </html>
 
