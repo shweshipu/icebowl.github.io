@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head><title> icebowl.github.io </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+	body{
+	margin:0;padding:0;
+	background: #24423C;
+	color: #FCBE14;
+	font-family: Arial, Helvetica, sans-serif;	
+	}
+.wrapper {overflow: auto;}
+
+#main {margin-left: 10px;}
+
+#leftsidebar {
+    float: none;
+    width: auto;
+}
+
+#menulist {
+    margin: 0;
+    padding: 0;
+}
+
+.menuitem {
+    background:#24423C;
+    color:#fff;
+    border: 2px solid #d4d4d4;
+    border-radius: 7px;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 4px;
+    padding: 2px;
+}
+
+a:link{
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+    background: yellow;
+}
+
+@media screen and (min-width: 480px) {
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
+}
+</style>
+</head>
+<body>
+
+<div class="wrapper">
+	<header>
+			icebowl.github.io
+		</header>
+  <div id="leftsidebar">
+<ul id="menulist">
+<a href = "https://github.com/icebowl?tab=repositories"><li class="menuitem link">Repositories</li></a>
+<a href = "https://github.com/icebowl/videos"><li class="menuitem link">video repo</li></a>
+<a href = "img/"><li class="menuitem link">img</li></a>
+<a href = "computers/index.html"><li class="menuitem link">computers</li></a>
+      <li class="menuitem">42=2A=00101010=*</li>
+ 
+   </ul>
+  </div>
+  <div id="main">
+    <pre>
+  <img src = "img/esp8266-fddi.png">
+  current project:
+  https://www.amazon.com/Devastator-Mobile-Robot-Platform-Metal/dp/B01KHLYJQ2/ref=sr_1_fkmr0_2?ie=UTF8&qid=1498132968&sr=8-2-fkmr0&keywords=devastator+tank+mobil+platform
+  http://johnny-five.io/
+  
+  <hr />
+  <img src = "jump.png" width = "400">
+  $ git config --global --list
+user.user=icebowl
+user.username=icebowl
+user.email=???
+
+$git config --global user.user "icebowl"
+$git config --global user.username "icebowl"
+$git config --global user.email "?@?"
+
+$git add --all
+$git commit -m "aa"
+$git push
+
+<hr />
+dmidecode -t 4
+# dmidecode 3.0
+Getting SMBIOS data from sysfs.
+SMBIOS 2.6 present.
+
+Handle 0x0004, DMI type 4, 42 bytes
+Processor Information
+	Socket Designation: CPU 1
+	Type: Central Processor
+	Family: Other
+	Manufacturer: Intel            
+	ID: A7 06 02 00 FF FB EB BF
+	Signature: Type 0, Family 6, Model 42, Stepping 7
+	Flags:
+		FPU (Floating-point unit on-chip)
+		VME (Virtual mode extension)
+		DE (Debugging extension)
+		PSE (Page size extension)
+		TSC (Time stamp counter)
+		MSR (Model specific registers)
+		PAE (Physical address extension)
+		MCE (Machine check exception)
+		CX8 (CMPXCHG8 instruction supported)
+		APIC (On-chip APIC hardware supported)
+		SEP (Fast system call)
+		MTRR (Memory type range registers)
+		PGE (Page global enable)
+		MCA (Machine check architecture)
+		CMOV (Conditional move instruction supported)
+		PAT (Page attribute table)
+		PSE-36 (36-bit page size extension)
+		CLFSH (CLFLUSH instruction supported)
+		DS (Debug store)
+		ACPI (ACPI supported)
+		MMX (MMX technology supported)
+		FXSR (FXSAVE and FXSTOR instructions supported)
+		SSE (Streaming SIMD extensions)
+		SSE2 (Streaming SIMD extensions 2)
+		SS (Self-snoop)
+		HTT (Multi-threading)
+		TM (Thermal monitor supported)
+		PBE (Pending break enabled)
+	Version: Intel(R) Pentium(R) CPU G620 @ 2.60GHz         
+	Voltage: 0.0 V
+	External Clock: 100 MHz
+	Max Speed: 4000 MHz
+	Current Speed: 2600 MHz
+	Status: Populated, Enabled
+	Upgrade: Other
+	L1 Cache Handle: 0x0005
+	L2 Cache Handle: 0x0006
+	L3 Cache Handle: 0x0007
+	Serial Number: To Be Filled By O.E.M.
+	Asset Tag: To Be Filled By O.E.M.
+	Part Number: To Be Filled By O.E.M.
+	Core Count: 2
+	Core Enabled: 1
+	Characteristics:
+		64-bit capable
+
+root@d9:~/scath# 
+
+  https://www.cnet.com/products/lenovo-thinkcentre-m81-0385-p-g620-2-6-ghz-monitor-none-series/specs/
+  </pre>
+  
+  </div>
+</div>
+<footer>
+GREEN
+#24423C - rgb(36, 66, 60)
+CHEESE GOLD HEX CODE: #FFB81C; RGB: (255,184,28)
+#FCBE14 - rgb(252, 190, 20)
+</footer>
+</body>
+</html>
+
