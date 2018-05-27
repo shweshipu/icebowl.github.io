@@ -1,5 +1,5 @@
 <pre>
-Gentoo
+#Gentoo
 
 
 ciclo /usr/src # cp linux-4.9.76-gentoo-r1/.config linux-4.9.95-gentoo/
