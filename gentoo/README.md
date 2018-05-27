@@ -37,5 +37,15 @@ linux /vmlinuz-4.4.39-gentoo root=/dev/sda4 ro root=/dev/sda4 ro init=/usr/lib/s
 170806
 grub2-mkconfig -o /boot/grub/grub.cfg 
 
+180527
+cd /boot/grub
+/boot/grub #/ nano grub.cfg -c
+added the following
+linux   /vmlinuz-4.9.95-gentoo root=/dev/sda4 ro   root=/dev/sda4 ro init=/usr/lib/systemd/systemd
+
+ # eselect kernel list
+Available kernel symlink targets:
+  [1]   linux-4.9.76-gentoo-r1
+  [2]   linux-4.9.95-gentoo *
 
 </pre>
